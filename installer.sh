@@ -27,5 +27,8 @@ read -r -s password
 
 . scripts/ack.sh
 
+. scripts/unrar.sh
+
+
 
 
