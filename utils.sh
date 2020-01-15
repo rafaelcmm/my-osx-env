@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+END=$'\e[0m'
+CYAN='\033[00;36m'
+GREEN='\033[00;32m'
+
 function info() {
   printf "\n${CYAN}%s${END}\n" "$*"
 }
