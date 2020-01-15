@@ -18,6 +18,10 @@ export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 path+=($NVM_DIR)
 
+# FLUTTER
+export FLUTTER="$HOME/SDKs/flutter/bin"
+path+=($FLUTTER)
+
 # DOCKER
 export DVM_HOME="/usr/local/opt/dvm/dvm.sh"
 [ -f $DVM_HOME ] && . $DVM_HOME

@@ -9,7 +9,6 @@ plugins=(
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
-autoload -U compinit && compinit
 
 # Path
 . $HOME/Workspace/my-osx-env/.path
