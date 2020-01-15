@@ -31,12 +31,28 @@ read -r -s password
 
 . scripts/python.sh
 
+. scripts/go.sh
+
 . scripts/vim.sh
 
 . scripts/nvim.sh
 
 . scripts/docker.sh
 
+. scripts/java.sh
 
+. scripts/maven.sh
+
+. scripts/gradle.sh
+
+. scripts/kotlin.sh
+
+. scripts/jbtoolbox.sh
+
+. scripts/iterm.sh
+
+. scripts/googlechrome.sh
+
+. scripts/githubdesktop.sh
 
 
