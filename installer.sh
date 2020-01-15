@@ -35,6 +35,7 @@ read -r -s password
 
 . scripts/nvim.sh
 
+. scripts/docker.sh
 
 
 
