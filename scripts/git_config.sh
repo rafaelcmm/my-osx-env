@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cd .. \
+&& git config --global user.name "${name}" \
+&& git config --global user.email "${email}" \
+&& npm install -g diff-so-fancy \
+&& git config --global core.editor "nvim" \
+&& git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX" \
+&& git config --global color.diff-highlight.oldNormal "red bold" \
+&& git config --global color.diff-highlight.oldHighlight "red bold 52" \
+&& git config --global color.diff-highlight.newNormal "green bold" \
+&& git config --global color.diff-highlight.newHighlight "green bold 22"
