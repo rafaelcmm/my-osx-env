@@ -1,0 +1,125 @@
+#!/bin/bash
+
+#################################################################
+# Git                                                           #
+#################################################################
+
+alias gl='git log --all --graph --pretty=format:"%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative'
+
+alias g_unmerge='git reset --merge ORIG_HEAD'
+
+alias g_show_unchaged_files="git ls-files -v|grep '^h'"
+
+#################################################################
+# Maven                                                         #
+#################################################################
+
+alias mvn_install="mvn clean install -DskipTests"
+
+alias mvn_package="mvn clean compile package -DskipTests"
+
+alias mvn_install_sync="mvn clean install -U -P -DskipTests"
+
+
+#################################################################
+# Source                                                        #
+#################################################################
+
+alias reload="source $HOME/.zshrc"
+
+#################################################################
+# Faces https://www.npmjs.com/package/cool-ascii-faces          #
+#################################################################
+
+alias faces="cool-face -a"
+
+#################################################################
+# Util                                                          #
+#################################################################
+
+alias list_so_logs="ls -la /var/log"
+
+alias list_temp_files="ls -la /private/tmp"
+
+alias list_all_devices="ls -la /dev"
+
+alias list_system_applications="ls -la /bin /usr/bin"
+
+alias list_superuser_applications="ls -la /sbin /usr/sbin"
+
+alias list_brew_applications="ls -la /usr/local/Cellar"
+
+alias list_applications_installed_by_user="ls -la \
+                                              /usr/local/Cellar \
+                                              /usr/local/bin \
+                                              /usr/local/etc \
+                                              /usr/local/share \
+                                              /usr/local/opt \
+                                              /usr/local/lib"
+
+alias list_all_disponible_documentation="ls -la \
+                                              /usr/share/man/man1 \
+                                              /usr/share/man/man2 \
+                                              /usr/share/man/man3 \
+                                              /usr/share/man/man4 \
+                                              /usr/share/man/man5 \
+                                              /usr/share/man/man6 \
+                                              /usr/share/man/man7 \
+                                              /usr/share/man/man8 \
+                                              /usr/share/man/man9 \
+                                              /usr/share/man/mann >> ~/disponible_documentation.txt; \
+                                              open ~/disponible_documentation.txt; \
+                                              sleep 3s; \
+                                              rm ~/disponible_documentation.txt;"
+
+#################################################################
+# Docker                                                        #
+#################################################################
+
+alias dc="docker-compose"
+alias dm="docker-machine"
+alias dps="docker ps"
+alias dmls="docker-machine ls"
+
+#################################################################
+# Cordova                                                       #
+#################################################################
+alias c="cordova"
+
+#################################################################
+# Babel                                                         #
+#################################################################
+alias babel="babel.js"
+
+#################################################################
+# VIM                                                           #
+#################################################################
+alias vim="/usr/local/bin/vim"
+
+#################################################################
+# Webpack                                                       #
+#################################################################
+alias webpack="webpack.js"
+alias webpack-dev-server="webpack-dev-server.js"
+
+
+#################################################################
+# Components                                                    #
+#################################################################
+alias component_build="webpack --progress --colors && open src/html/view/index.html"
+
+
+#################################################################
+# Python                                                        #
+#################################################################
+alias pserver="python -m SimpleHTTPServer"
+
+#################################################################
+# Grep updated                                                  #
+#################################################################
+alias ggrep="/usr/local/Cellar/grep/2.27/bin/grep"
+
+#################################################################
+# NeoVIM                                                        #
+#################################################################
+alias vim="/usr/local/bin/nvim"

@@ -55,4 +55,14 @@ read -r -s password
 
 . scripts/githubdesktop.sh
 
+. scripts/slack.sh
 
+. scripts/zsh.sh
+
+. scripts/ohmyzsh.sh
+
+. scripts/zshautosuggestions.sh
+
+. scripts/zshsyntax.sh
+
+. scripts/iterm_integration.sh
