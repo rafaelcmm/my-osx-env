@@ -29,6 +29,8 @@ read -r -s password
 
 . scripts/unrar.sh
 
+. scripts/python.sh
+
 
 
 
