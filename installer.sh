@@ -31,6 +31,11 @@ read -r -s password
 
 . scripts/python.sh
 
+. scripts/vim.sh
+
+. scripts/nvim.sh
+
+
 
 
 
