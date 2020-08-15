@@ -72,6 +72,8 @@ alias list_all_disponible_documentation="ls -la \
                                               sleep 3s; \
                                               rm ~/disponible_documentation.txt;"
 
+alias log_ip="curl -s http://checkip.dyndns.org/ | sed 's/[a-zA-Z<>/ :]//g'"
+
 #################################################################
 # Docker                                                        #
 #################################################################
