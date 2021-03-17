@@ -37,25 +37,13 @@ read -r -s password
 
 . scripts/nvim.sh
 
-. scripts/docker.sh
-
 . scripts/java.sh
-
-. scripts/maven.sh
-
-. scripts/gradle.sh
-
-. scripts/kotlin.sh
 
 . scripts/jbtoolbox.sh
 
 . scripts/iterm.sh
 
-. scripts/googlechrome.sh
-
 . scripts/githubdesktop.sh
-
-. scripts/slack.sh
 
 . scripts/zsh.sh
 
